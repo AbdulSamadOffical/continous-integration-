@@ -5,7 +5,10 @@ const app = express();
 
 // Respond with "hello world" for requests that hit our root "/"
 app.get("/", function (req, res) {
-  return res.send("test the app");
+  return res.json({
+    message:
+      "Github action is not another ci/cd tool but it is automation tool for developers workflows on git",
+  });
 });
 
 // listen to port 7000 by default
