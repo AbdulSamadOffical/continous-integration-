@@ -5,7 +5,7 @@ const app = express();
 
 // Respond with "hello world" for requests that hit our root "/"
 app.get("/", function (req, res) {
-  return res.send("Continous integration.");
+  return res.json({ message: "Check your cicd pipeline" });
 });
 
 // listen to port 7000 by default
