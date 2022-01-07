@@ -1,0 +1,7 @@
+ssh 
+
+1. ssh -i privetkey root@ip
+2. sudo ./svc.sh start // start runner as service
+2. run pm2 // to intiate pm2 process
+
+   pm2 start --name=NodeApp index.js
