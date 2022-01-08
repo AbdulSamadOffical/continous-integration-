@@ -7,7 +7,7 @@ const app = express();
 app.get("/", function (req, res) {
   return res.json({
     message:
-      "Github action is not another ci/cd tool but it is automation tool for developers workflows on git",
+      "Let's check the api's",
   });
 });
 
