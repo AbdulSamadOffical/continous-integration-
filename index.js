@@ -7,7 +7,7 @@ const app = express();
 app.get("/", function (req, res) {
   return res.json({
     message:
-      "Let's check the api's",
+      "Welcome to ci/cdpipeline!",
   });
 });
 
